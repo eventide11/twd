@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #283149;
+    font-size: 16px;
+    text-align: center;
+}
+header {
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    font-size: 5rem;
+    text-shadow: 3px 0 #DA0463;
+}
+main {
+    margin: 10% auto;
+}
+main button {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    color: #DA0463;
+    font-family: 'Arvo', cursive;
+    font-size: 1rem;
+    line-height: 14rem;
+    margin: 10px;
+    text-align: center;
+    text-shadow: 3px 0 #DBEDF3;
+    border: 10px solid #404B69;
+    border-radius: 15px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main button.w {
+    background-image: url(rick.jpg);
+    background-position: center right;
+}
+main button.a {
+    background-image: url(negan.jpg);
+}
+main button.s {
+    background-image: url(shane.jpg);
+    background-position: center;
+}
+main button.d {
+    background-image: url(morgan.png);
+}
+main button.j {
+    background-image: url(daryl.jpg);
+}
+main button.k {
+    background-image: url(merle.jpg);
+    background-position: left top;
+}
+main button.l {
+    background-image: url(glenn.jpg);
+    background-position: center -10px;
+}
+.version2 {
+    color: red;
+}
+footer {
+    font-family: sans-serif;
+    color: #DBEDF3;
+}
